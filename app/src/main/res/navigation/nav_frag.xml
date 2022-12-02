@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_frag"
+    app:startDestination="@id/homee">
+
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.beyza.kayip_esyam.view.bildirimFragment"
+        android:label="Bildirimler"
+        tools:layout="@layout/fragment_bildirim" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.beyza.kayip_esyam.view.mesajFragment"
+        android:label="Mesajlarım"
+        tools:layout="@layout/fragment_mesaj" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.beyza.kayip_esyam.view.profilFragment"
+        android:label="Profilim"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/homee"
+        android:name="com.beyza.kayip_esyam.view.homeeFragment"
+        android:label="Ana sayfa"
+        tools:layout="@layout/fragment_homee" />
+    <fragment
+        android:id="@+id/insan"
+        android:name="com.beyza.kayip_esyam.view.insan_Fragment"
+        android:label="kayıp İnsan paylaş"
+        tools:layout="@layout/fragment_insan_" />
+    <fragment
+        android:id="@+id/hayvan"
+        android:name="com.beyza.kayip_esyam.view.hayvanFragment"
+        android:label="kayıp hayvan paylaş"
+        tools:layout="@layout/fragment_hayvan" />
+    <fragment
+        android:id="@+id/nesne"
+        android:name="com.beyza.kayip_esyam.view.nesneFragment"
+        android:label="kayıp eşya paylaş"
+        tools:layout="@layout/fragment_nesne" />
+    <fragment
+        android:id="@+id/cıkıs"
+        android:name="com.beyza.kayip_esyam.view.cikisFragment"
+        android:label="Çıkış"
+        tools:layout="@layout/fragment_cikis" />
+    <fragment
+        android:id="@+id/konum"
+        android:name="com.beyza.kayip_esyam.view.MapsFragment2"
+        android:label="Harita"
+        tools:layout="@layout/fragment_maps2" />
+</navigation>

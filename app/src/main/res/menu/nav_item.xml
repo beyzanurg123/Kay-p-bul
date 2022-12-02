@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Hesabım"
+        >
+        <menu>
+            <item
+                android:id="@+id/homee"
+                android:title="Ana sayfa"
+                android:icon="@drawable/ic_main"
+                />
+            <item
+                android:id="@+id/home"
+                android:title="Profilim"
+                android:icon="@drawable/ic_home"
+                />
+            <item
+                android:id="@+id/profile"
+                android:title="Mesajlarım"
+                android:icon="@drawable/messa"
+                />
+            <item
+                android:id="@+id/notification"
+                android:title="Bildirimler"
+                android:icon="@drawable/ic_notification"
+                />
+
+            <item
+                android:id="@+id/cıkıs"
+                android:title="Çıkış yap"
+                android:icon="@drawable/logout_24"
+                />
+
+        </menu>
+
+    </item>
+    <item
+        android:title="Kayıp bul"
+        >
+        <menu>
+            <item
+                android:id="@+id/insan"
+                android:title="Kayıp nesne buldum"
+                android:icon="@drawable/ic_contactus"
+                />
+
+
+        </menu>
+
+
+    </item>
+</menu>

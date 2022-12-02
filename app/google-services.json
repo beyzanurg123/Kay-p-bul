@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103455890953",
+    "project_id": "kayipbul-aec47",
+    "storage_bucket": "kayipbul-aec47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103455890953:android:f973188752f6a44928e2d8",
+        "android_client_info": {
+          "package_name": "com.beyza.kayip_esyam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103455890953-e4svr6g7pv6i0rhehd5p2k7ld5fh1v6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB2QLG4yZH1qIaNwKKbG6Mw5__ld3RSaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103455890953-e4svr6g7pv6i0rhehd5p2k7ld5fh1v6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
